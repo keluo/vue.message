@@ -1,7 +1,7 @@
 # vue.message
 > Message for Vue.js
 
-#初始化插件
+##初始化插件
 ```javascript
 import Vue from 'vue'
 import Message from 'VueMessage'
@@ -9,7 +9,7 @@ import Message from 'VueMessage'
 Vue.use(Message)
 ```
 
-#使用
+##使用
 ```javascript
 //成功提示
 this.$message.success('操作成功提示！');
