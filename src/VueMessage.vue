@@ -61,11 +61,11 @@ export default {
         that.message.isEnter = false;
       },300);
       setTimeout(function(){
-        that.message.isLeave = true;
         setTimeout(function(){
           that.$destroy(true);
           that.$el.parentNode.removeChild(that.$el);
-        },300);
+        },280);
+        that.message.isLeave = true;
       },time ||1500)
     }
   }
